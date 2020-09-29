@@ -13,6 +13,7 @@ body {
  .navbar .navbar-brand {
     color:#000;
     font-size: x-large;
+   padding-top: 20px;
   }
   #nav-list {
     margin-top: 0;
@@ -69,17 +70,17 @@ body {
   
 
   @media(max-width:767px){
-    .navbar .container{
-       margin: auto 25px;
-    }
+    .navbar .navbar-brand{
+      margin-left: 25px;
+   }
     #main-content{
         margin: auto 45px;
     }
 }
 @media(min-width:768px){
-    .navbar .container{
-       margin: auto 25px;
-    }
+  .navbar .container{
+    margin: auto 25px;
+ }
    .item-menu{
        width: 112%;
        margin-left: -6%;
