@@ -1,0 +1,88 @@
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+  }
+  /* HEADER */
+  .navbar{
+    background-color: gray;
+    border-radius: 0;
+    border: 1px solid #000;
+    
+  }
+ .navbar .navbar-brand {
+    color:#000;
+    font-size: x-large;
+  }
+  #nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #nav-list a {
+    color: #000;
+    text-align: center;
+    background: #fff;
+    border: 1px solid black;
+    
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* FIN HEADER */
+  /* Home Page */
+  .title{
+      font-weight: bolder;
+      font-size: x-large;
+      margin-bottom: 40px;
+      margin-top: 0;
+  }
+  .item-menu{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: gray;
+  }
+  
+  .item-description{
+      padding: auto;
+      padding-bottom: 10px;
+      font-size: medium; 
+  }
+  .item-title{
+      font-size: large;
+      font-weight: bold;
+  }
+  /* END HOME */
+  
+
+  @media(max-width:767px){
+    .navbar .container{
+       margin: auto 25px;
+    }
+    #main-content{
+        margin: auto 45px;
+    }
+}
+@media(min-width:768px){
+    .navbar .container{
+       margin: auto 25px;
+    }
+   .item-menu{
+       width: 112%;
+       margin-left: -6%;
+   }
+    
+}
